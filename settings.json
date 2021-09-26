@@ -119,6 +119,7 @@
     // C
     "[c]": {
         "editor.tabSize": 8,
+        "editor.rulers": [79],
         "editor.insertSpaces": true,
         "editor.formatOnSave": true,
         "editor.formatOnType": true,
@@ -137,21 +138,24 @@
     "C_Cpp.default.compilerPath": "/usr/bin/gcc",
     "C_Cpp.default.browse.databaseFilename": "",
     
-    "C_Cpp.vcFormat.indent.caseLabels": true,
+    "C_Cpp.vcFormat.indent.accessSpecifiers": true,
+    "C_Cpp.vcFormat.indent.caseContents": true,
+    "C_Cpp.vcFormat.indent.caseContentsWhenBlock": true,
     "C_Cpp.vcFormat.indent.preprocessor": "leftmostColumn",
     "C_Cpp.vcFormat.indent.withinParentheses": "alignToParenthesis",
-    "C_Cpp.vcFormat.indent.caseContentsWhenBlock": true,
     
     "C_Cpp.vcFormat.newLine.beforeElse": false,
-    "C_Cpp.vcFormat.newLine.beforeOpenBrace.block":"newLine",
     "C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "ignore",
     "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "newLine",
+    "C_Cpp.vcFormat.newLine.scopeBracesOnSeparateLines": true,
+    "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyFunction": true,
     
+    "C_Cpp.vcFormat.space.groupSquareBrackets": true,
     "C_Cpp.vcFormat.space.aroundBinaryOperator": "insert",
     "C_Cpp.vcFormat.space.aroundTernaryOperator": "insert",
     "C_Cpp.vcFormat.space.afterCastCloseParenthesis": true,
     "C_Cpp.vcFormat.space.pointerReferenceAlignment": "right",
     "C_Cpp.vcFormat.space.aroundAssignmentOperator": "insert",
     "C_Cpp.vcFormat.space.beforeInitializerListOpenBrace": true,
-    "C_Cpp.vcFormat.space.groupSquareBrackets": true,
+    "C_Cpp.vcFormat.space.beforeFunctionOpenParenthesis": "remove",
 }
