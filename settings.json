@@ -34,7 +34,11 @@
     // Files and search
     "files.defaultLanguage": "{activeEditorLanguage}",
     "files.exclude": {
-        "USE_GITIGNORE": true
+        "USE_GITIGNORE": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
     },
     "search.exclude": {
         "**/node_modules": true,
@@ -135,6 +139,7 @@
     "C_Cpp.default.intelliSenseMode": "gcc-x64",
     "C_Cpp.default.includePath": ["${workspaceFolder}/**"],
     "C_Cpp.default.browse.path": ["${workspaceFolder}"],
+    "C_Cpp.default.defines": ["__linux__", "__x86_64__", "_GNU_SOURCE"],
     "C_Cpp.default.compilerPath": "/usr/bin/gcc",
     "C_Cpp.default.browse.databaseFilename": "",
     
